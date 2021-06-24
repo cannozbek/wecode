@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:wecodenew/anasayfa.dart';
+import 'file:///C:/ornekler/wecodenew/lib/pages/anasayfa.dart';
 
-class GirisPage extends StatelessWidget {
+class KayitPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -29,7 +29,7 @@ class GirisPage extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
                       Text(
-                        "GİRİŞ",
+                        "KAYDOL",
                         style: TextStyle(
                             fontSize: 28.0,
                             fontWeight: FontWeight.bold,
@@ -46,6 +46,19 @@ class GirisPage extends StatelessWidget {
                             decoration: InputDecoration(
                               border: OutlineInputBorder(),
                               hintText: 'Mail Adresinizi Giriniz...',
+                            ),
+                          ),
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.all(12.0),
+                        child: Container(
+                          alignment: Alignment.center,
+                          child: TextField(
+                            obscureText: true,
+                            decoration: InputDecoration(
+                              border: OutlineInputBorder(),
+                              hintText: 'Şifrenizi Giriniz...',
                             ),
                           ),
                         ),
@@ -122,7 +135,6 @@ class GirisPage extends StatelessWidget {
                   ),
                   alignment: Alignment.center,
                   width: MediaQuery.of(context).size.width - 80,
-                  height: 300.0,
                 ),
               ),
             ],

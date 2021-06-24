@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:wecodenew/giris.dart';
-import 'package:wecodenew/kayıt.dart';
+import 'file:///C:/ornekler/wecodenew/lib/pages/giris.dart';
+import 'file:///C:/ornekler/wecodenew/lib/pages/kay%C4%B1t.dart';
 
 class HomePage extends StatelessWidget {
   @override

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'duyurular.dart';
+import 'package:wecodenew/pages/duyurular.dart';
 
 class UstaOl extends StatelessWidget {
   @override

@@ -1,9 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:wecodenew/gonderikarti.dart';
-import 'package:wecodenew/hakk%C4%B1m%C4%B1zda.dart';
-import 'package:wecodenew/usta.dart';
-
+import 'package:wecodenew/pages/chart.dart';
+import 'file:///C:/ornekler/wecodenew/lib/pages/gonderikarti.dart';
+import 'package:wecodenew/pages/hakk%C4%B1m%C4%B1zda.dart';
+import 'package:wecodenew/pages/kullanici.dart';
+import 'package:wecodenew/pages/reminder.dart';
+import 'package:wecodenew/pages/usta.dart';
+import 'package:wecodenew/views/advice.dart';
 import 'ayarlar.dart';
 import 'duyurular.dart';
 
@@ -14,7 +17,10 @@ class AnaSayfa extends StatefulWidget {
 class _AnaSayfaState extends State<AnaSayfa> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return
+
+
+      Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blueAccent[100],
         elevation: 0.0,
@@ -132,6 +138,51 @@ class _AnaSayfaState extends State<AnaSayfa> {
                 Navigator.push(context, routeAyarlar);
               },
             ),
+            ListTile(
+              leading: Icon(Icons.fiber_new, color: Colors.red,
+              ),
+              title: Text('Son Yapılan İşlemler'),
+              onTap: () {
+                Route routeListe = MaterialPageRoute(builder: (context) {
+                  return AlbumsView();
+                });
+                Navigator.push(context, routeListe);
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.fiber_new, color: Colors.red,
+              ),
+              title: Text('WeCodeReminder'),
+              onTap: () {
+                Route routeReminder = MaterialPageRoute(builder: (context) {
+                  return Reminder();
+                });
+                Navigator.push(context, routeReminder);
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.fiber_new, color: Colors.red,
+              ),
+              title: Text('WeCodeAnaliz'),
+              onTap: () {
+                Route routePie = MaterialPageRoute(builder: (context) {
+                  return ScatterChartSample1();
+                });
+                Navigator.push(context, routePie);
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.fiber_new, color: Colors.red,
+              ),
+              title: Text('WeCodeAdvice'),
+              onTap: () {
+                Route routeAdvice = MaterialPageRoute(builder: (context) {
+                  return Advice();
+                });
+                Navigator.push(context, routeAdvice);
+              },
+            ),
+
           ],
         ),
       ),

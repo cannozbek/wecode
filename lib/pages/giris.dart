@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:wecodenew/anasayfa.dart';
+import 'file:///C:/ornekler/wecodenew/lib/pages/anasayfa.dart';
 
-class KayitPage extends StatelessWidget {
+class GirisPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -29,7 +29,7 @@ class KayitPage extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
                       Text(
-                        "KAYDOL",
+                        "GİRİŞ",
                         style: TextStyle(
                             fontSize: 28.0,
                             fontWeight: FontWeight.bold,
@@ -46,19 +46,6 @@ class KayitPage extends StatelessWidget {
                             decoration: InputDecoration(
                               border: OutlineInputBorder(),
                               hintText: 'Mail Adresinizi Giriniz...',
-                            ),
-                          ),
-                        ),
-                      ),
-                      Padding(
-                        padding: const EdgeInsets.all(12.0),
-                        child: Container(
-                          alignment: Alignment.center,
-                          child: TextField(
-                            obscureText: true,
-                            decoration: InputDecoration(
-                              border: OutlineInputBorder(),
-                              hintText: 'Şifrenizi Giriniz...',
                             ),
                           ),
                         ),
@@ -101,17 +88,20 @@ class KayitPage extends StatelessWidget {
                                 width: 20.0,
                               ),
                               ElevatedButton(
-                                  onPressed: () {
-                                    Route routeAnaSayfa =
-                                        MaterialPageRoute(builder: (context) {
-                                      return AnaSayfa();
-                                    });
-                                    Navigator.push(context, routeAnaSayfa);
-                                  },
-                                  child: Padding(
-                                    padding: const EdgeInsets.all(20.0),
-                                    child: Text('to network'),
+                                  child: GestureDetector(
+                                    onTap: () {
+                                      Route routeAnaSayfa =
+                                          MaterialPageRoute(builder: (context) {
+                                        return AnaSayfa();
+                                      });
+                                      Navigator.push(context, routeAnaSayfa);
+                                    },
+                                    child: Padding(
+                                      padding: const EdgeInsets.all(20.0),
+                                      child: Text('to network'),
+                                    ),
                                   ),
+                                  onPressed: (){},
                                   style: ElevatedButton.styleFrom(
                                     primary: Colors.blueAccent,
                                     onPrimary: Colors.black,
@@ -135,6 +125,7 @@ class KayitPage extends StatelessWidget {
                   ),
                   alignment: Alignment.center,
                   width: MediaQuery.of(context).size.width - 80,
+                  height: 300.0,
                 ),
               ),
             ],

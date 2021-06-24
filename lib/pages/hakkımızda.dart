@@ -41,11 +41,11 @@ class Hakkimizda extends StatelessWidget {
                       ),
                       Text(
                         "\n"
-                        "WeCode, yazılım geliştirme ile uğraşan ve bu sektörde gelişmek isteyen gençlerin usta yazılımcılar ile buluşmasını sağlayan bir platformdur. "
-                        "Aynı zamanda piyasada uzun süre çalışmış ve içerik tüketmiş,üretmiş bu kişilerin kaynaklarına , github,medium vb. içerik paylaştıkları ortamlara tek bir noktadan erişim "
-                        "sağlamanızı amaçlar.\n"
-                        "Bunlar dışında usta yazılımcılara talep yollayarak onlar ile proje tabanlı olarak görüşebilir ve yürüttüğünüz proje hakkında destek alabilirsiniz.\n"
-                        "\n",
+                            "WeCode, yazılım geliştirme ile uğraşan ve bu sektörde gelişmek isteyen gençlerin usta yazılımcılar ile buluşmasını sağlayan bir platformdur. "
+                            "Aynı zamanda piyasada uzun süre çalışmış ve içerik tüketmiş,üretmiş bu kişilerin kaynaklarına , github,medium vb. içerik paylaştıkları ortamlara tek bir noktadan erişim "
+                            "sağlamanızı amaçlar.\n"
+                            "Bunlar dışında usta yazılımcılara talep yollayarak onlar ile proje tabanlı olarak görüşebilir ve yürüttüğünüz proje hakkında destek alabilirsiniz.\n"
+                            "\n",
                         textAlign: TextAlign.start,
                         style: TextStyle(
                             color: Colors.black,
@@ -62,12 +62,12 @@ class Hakkimizda extends StatelessWidget {
                       ),
                       Text(
                         "\n"
-                        "Yazılım dünyası dışına çıktığımızda farklı iş kollarında cidden sadece üniversite eğitimiyle bir iş veya beceri sahibi olmamız imkansızdır. Daima pratik yapmalı ve\n"
-                        "kendimizi geliştirmeli hayatın içinde olmalıyız. Yazılım sektörüne geldiğimizde ise her kişinin ve gelişiminin bireysele indirgenmesi ile yazılımcıların yalnızlaşması istemediğimiz \n"
-                        "bir durum oldu. Öğrenci olarak şiddetli bir şekilde bu sektörün içinde hissettiğimiz yalnızlığın devamında da sürmemesi için çalışmaya karar verdik. Bunun dışında amaçlarımızdan birisi\n"
-                        "yazılım sektöründe başarılı isimlerin bilgilerini aktarmak istemeleri , bunun için ulaştığı yöntemlerinin kalabalık ve özel olmaması sonucuyla pek bir sonuca ulaşamaması. Bu yüzden bireysel\n"
-                        "olarak katılabilecekleri ve bireysel ilişkilerin kurulabileceği bir topluluk projesine imza atmak. "
-                        "\n",
+                            "Yazılım dünyası dışına çıktığımızda farklı iş kollarında cidden sadece üniversite eğitimiyle bir iş veya beceri sahibi olmamız imkansızdır. Daima pratik yapmalı ve\n"
+                            "kendimizi geliştirmeli hayatın içinde olmalıyız. Yazılım sektörüne geldiğimizde ise her kişinin ve gelişiminin bireysele indirgenmesi ile yazılımcıların yalnızlaşması istemediğimiz \n"
+                            "bir durum oldu. Öğrenci olarak şiddetli bir şekilde bu sektörün içinde hissettiğimiz yalnızlığın devamında da sürmemesi için çalışmaya karar verdik. Bunun dışında amaçlarımızdan birisi\n"
+                            "yazılım sektöründe başarılı isimlerin bilgilerini aktarmak istemeleri , bunun için ulaştığı yöntemlerinin kalabalık ve özel olmaması sonucuyla pek bir sonuca ulaşamaması. Bu yüzden bireysel\n"
+                            "olarak katılabilecekleri ve bireysel ilişkilerin kurulabileceği bir topluluk projesine imza atmak. "
+                            "\n",
                         textAlign: TextAlign.end,
                         style: TextStyle(
                             color: Colors.black,
@@ -79,9 +79,22 @@ class Hakkimizda extends StatelessWidget {
                       ),
                       Text(
                         "Tüm Hakları Saklıdır "
-                        "\n"
-                        "Bu uygulama Dr. Öğretim Üyesi Ahmet Cevahir ÇINAR tarafından yürütülen 3301456 kodlu MOBİL PROGRAMLAMA dersi kapsamında 193311048 numaralı Remzi Can Özbek "
-                        "tarafından 30 Nisan 2021 günü yapılmıştır.",
+                            "\n"
+                            "Versiyon 1"
+                            "\n"
+                            "\n"
+
+                            "Bu uygulama Dr. Öğretim Üyesi Ahmet Cevahir ÇINAR tarafından yürütülen 3301456 kodlu MOBİL PROGRAMLAMA dersi kapsamında 193311048 numaralı Remzi Can Özbek "
+                            "tarafından 30 Nisan 2021 günü yapılmıştır."
+                            "\n"
+                            "\n"
+                            "\n"
+
+                            "Versiyon 2"
+                            "\n"
+                            "\n"
+                            "Bu uygulama Dr. Öğretim Üyesi Ahmet Cevahir ÇINAR tarafından yürütülen 3301456 kodlu MOBİL PROGRAMLAMA dersi kapsamında 203301111 numaralı Öğrenci Öğrenir tarafından 25 Haziran 2021 günü yapılmıştır.",
+
                         textAlign: TextAlign.center,
                         style: TextStyle(
                             color: Colors.black,

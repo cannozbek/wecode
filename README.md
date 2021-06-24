@@ -1,6 +1,6 @@
 # wecodenew
 
-A new Flutter application.
+"to network"
 
 ## Getting Started
 
